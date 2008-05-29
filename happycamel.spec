@@ -14,6 +14,7 @@ BuildRequires:	rpm-pythonprov
 %pyrequires_eq	python-modules
 Requires:	python-PIL
 Provides:	python-HappyCamel
+Suggests:	perl-Image-ExifTool
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
